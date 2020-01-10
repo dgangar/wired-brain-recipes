@@ -1,0 +1,69 @@
+-----------------------------------------------------------------------------------------------------
+Person to contact if any issue :Deepak gangar
+-----------------------------------------------------------------------------------------------------
+run following script only on MCA server
+
+declare @work_center_id int=0
+declare @org_setting_id int=0
+select @work_center_id=work_center_id from org_work_center where abbr_name='RM'
+
+select @org_setting_id=setting_id from org_setting where work_center_id=@work_center_id and setting_type='ROLLING_MILL_BYPASS_POPUP_PRINTER'
+if @work_center_id<>0 and @org_setting_id=0
+begin
+		INSERT INTO [dbo].[org_setting]
+			 VALUES
+        (@work_center_id,'ROLLING_MILL_BYPASS_POPUP_PRINTER','YES',5,'2017-03-27 00:00:00.000',5,'2017-03-27 00:00:00.000')
+END
+
+
+-----------------------------------------------------------------------------------------------------
+Person to contact if any issue :Deepak gangar
+-----------------------------------------------------------------------------------------------------
+run following script only on ALTA server
+
+declare @label_id int=0
+declare @label_detail_id int=0
+
+
+select @label_id=label_id from com_label where name='HEAT_TREAT_TAG'
+if @label_id=0 
+begin
+		INSERT INTO [dbo].[com_label]
+          VALUES
+           ('HEAT_TREAT_TAG','Active',null,5,'2018-03-27 00:00:00.000',5,'2018-03-27 00:00:00.000')
+
+		   select @label_id=label_id from com_label where name='HEAT_TREAT_TAG'
+END
+
+select @label_detail_id=label_id from com_label_detail where label_id=@label_id
+
+if @label_detail_id=0 
+begin
+		INSERT INTO [dbo].com_label_detail
+          VALUES
+           (@label_id,null,1,null,'<?xml version="1.0"?> 
+<!DOCTYPE labels SYSTEM "label.dtd"> 
+<labels _JOBNAME="LBL101" _PRINTERNAME="Printer 1" _QUANTITY="1" _FORMAT="E:XML_TAG_.ZPL">
+<label>
+<variable name="Tag_Number">{tag_number}</variable>
+<variable name="Chem">N/A</variable>
+<variable name="Heat_Number">{heat_number}</variable>
+<variable name="Grade_Code">{external_grade}</variable>
+<variable name="Grade">{internal_grade}</variable>
+<variable name="Length">{length}</variable>
+<variable name="Size">{size}</variable>
+<variable name="Amount">{bundle_count}</variable>
+<variable name="KG">{weight_kg}</variable>
+<variable name="LBS">{weight_lbs}</variable>
+</label>
+</labels>',null,'Active',5,'2018-03-27 00:00:00.000',5,'2018-03-27 00:00:00.000')
+
+		   select @label_id=label_id from com_label where name='HEAT_TREAT_TAG'
+END
+
+
+
+
+
+
+END

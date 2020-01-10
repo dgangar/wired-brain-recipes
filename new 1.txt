@@ -1,0 +1,214 @@
+https://eservices.cic.gc.ca/rescalc/resCalcStartNew.do?&lang=eng
+
+pizza hut code:07401
+
+CJMNJZ$S95PZRF
+
+
+svn user:dgangar
+svn password:deepak12
+
+
+mca login information:
+
+Name	Username	Password
+Deepak Gangar	mcgoc\Deepak.Gangar	F3rr3xR3m0t3*
+
+
+
+
+
+
+
+
+
+
+http://1.livecricket.cc/
+WM592423
+WM592422
+
+wifi password:!Ferrex!8518
+2nd password:!FerreX8518
+7303631101937891
+7303631101937907
+
+Wifi Password for eng:!Ferrex8518!Eng
+53374056UOC086
+
+^FT440,120^A0R,65,65^FH\^FD{bundle_number}^FS 
+geopostings
+
+telus:602190699   9
+C:\Users\Deepak\AppData\Local\Microsoft\Outlook
+user : massonb
+password: Ferrex_123
+
+email password: Zuy63341
+Happy123
+
+23280720685072
+
+
+amazon id:23280666278726
+
+lblLocation.Visible = false;
+                ddlLocation.Visible = false;
+
+
+
+
+http://vistoperitalia.esteri.it/home/en#BMQuestionario
+
+
+
+usp_rmo_rolling_heat_line_up__get_cold_shear_reheat_furnance_in_charged question 
+
+declare @work_center_id int=0
+declare @org_setting_id int=0
+select @work_center_id=work_center_id from org_work_center where abbr_name='RM'
+
+select @org_setting_id=setting_id from org_setting where work_center_id=@work_center_id and setting_type='GENERAL_MEASURE_SYSTEM'
+if @work_center_id<>0 and @org_setting_id=0
+begin
+print 'abc'
+		INSERT INTO [dbo].[org_setting]
+			 VALUES
+        (@work_center_id,'GENERAL_MEASURE_SYSTEM','Metric',5,'2017-03-27 00:00:00.000',5,'2017-03-27 00:00:00.000')
+END
+
+
+performance=actualRate/operating_tph
+
+yield=((prime - hold)/(Line1FeedTonnes +Line2FeedTonnes))*100
+
+efficiency= ((shift_dur - non_sched_delays - change_over)/shift_dur)*100
+
+602190699   9
+TagPrintingServices
+
+
+
+C:\Ferrex\Projects\FE.MES.Process.Services\bin\Release
+
+
+<asp:checkBox ID="cbMannualTag" runat="server" Checked="false" style="vertical-align:middle !important;" />
+
+
+LabelPrintingServices
+
+
+
+declare @permission_id int=0
+declare @community varchar(128)='COMMUNITY_ROLLING_MILL'
+declare @permission_key varchar(128)='BUNDLE_TREATMENT_REPORT'
+
+select @permission_id=permission_id from [adm_permission] where community=@community and permission_key=@permission_key
+if @permission_id=0 
+begin
+
+		INSERT INTO [dbo].[adm_permission]
+			 VALUES
+        (@community,@permission_key)
+END
+
+
+
+
+
+
+
+
+
+
+if (!string.IsNullOrEmpty(hot_length) && !string.IsNullOrEmpty(UnitOfMeasure))
+                        {
+                            _litProductLength.Text = WUtil.GetLengthUOMConversion(CComUnitOfMeasure.UNIT_OF_MEASURE_NAME_DECIMAL_INCHES, UnitOfMeasure, decimal.Parse(hot_length), "Retrive",3);
+                        }
+
+amazon reference: 159824
+http://localhost:61617/performance_analysis/analysis/data_export.aspx
+
+
+https://www.kijiji.ca/v-electronics/oshawa-durham-region/brand-new-dash-cam/1387731851?enableSearchNavigationFlag=true
+
+canada.ca/business/register/online
+
+(int reason_id,int equipment_id,int area_id, int category_id, int type_id)
+
+SELECT Name
+FROM sys.procedures
+WHERE OBJECT_DEFINITION(OBJECT_ID) LIKE '%org_delay_reason%'
+
+
+installutil FE.MES.Process.Services.exe
+select * 
+from 
+   sys.procedures 
+where 
+   name like '%scanner%'
+
+
+   SELECT      COLUMN_NAME AS 'ColumnName'
+            ,TABLE_NAME AS  'TableName'
+FROM        INFORMATION_SCHEMA.COLUMNS
+WHERE       COLUMN_NAME LIKE '%MyName%'
+ORDER BY    TableName
+            ,ColumnName;
+   
+   
+SELECT name
+FROM   sys.procedures
+WHERE  Object_definition(object_id) LIKE '%product_recipe_equipment_group_code%'
+
+
+/****** Script for SelectTopNRows command from SSMS  ******/
+SELECT TOP 1000 [product_recipe_equipment_group_id]
+      ,[work_center_id]
+      ,[product_recipe_equipment_group_code]
+      ,[group_type]
+      ,[name]
+      ,[description]
+      ,[add_user]
+      ,[add_datetime]
+      ,[update_user]
+      ,[update_datetime]
+  FROM [ALTA_MES_Main].[dbo].[rmo_product_recipe_equipment_group]
+						
+						
+						
+						
+						
+select * from com_grade where name in ('GM50M80','GM50M60')
+select * from gmo_bundle_inventory where bundle_tag in('WM598977')
+
+select * from gmo_campaign_work_order_bom_detail where work_order_detail_id=1398
+
+
+
+garycanadian@hotmail.com
+																																						I am planning to relocate after getting the job. Previously, I lost the job due to recession. So, I decided to move to Toronto for new opportunities and to expand my skillset. But now I am willing  to move back to my town.
+
+
+Dear HR dept,
+
+This letter is to express my interest in your Job posting on Indeed for Full Stack Software Developer.
+With more than 6 years of hands-on experience efficiently coding web sites and applications using current versions of Microsoft Visual studio, MVC, MVVM, Sql Server, HTML, CSS, and JavaScript, I am confident that I will be an excellent addition to your organization.
+I am working as software developer at Ferrex Engineering Ltd. We develop software for steel industry to manage their inventory and produce steel using C#, Asp.net, sql server.
+I am enthusiastic, organized and willing to take ownership of core components. I initiate my work keeping usability, efficiency and all user requirements in mind. I consider myself to be a results-oriented, dependable and capable worker; who is not easily affected by job stress and will prove to be a strong asset to your department and organization in a variety of duties.
+I want to be a part of your winning team and I am confident I can foster your department into a new era of a technological harmony and greater profitability.
+I look forward to discussing this opportunity, with you in a more personal manner.
+
+Kind Regards
+Deepak Gangar
+
+threading
+sql injection
+
+sql dependency
+
+temprary local table and global table
+bootstrap types
+paging in sql server
+diffrence between hashing and encryption
+
+https://account.amazon.jobs/en-US/forms/country_summary?country_code=CAN&result=success
